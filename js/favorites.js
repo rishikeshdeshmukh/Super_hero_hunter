@@ -31,7 +31,7 @@ for(let i=0;i<localStorage.length;i++)
     templateCanvas.getElementById("fav").addEventListener('click',function (){
         myStorage.innerHTML = null;
         localStorage.removeItem(localStorage.key(i));
-        window.location.assign('./favourites.html');
+        window.location.assign('./favorites.html');
 
     });
 // Now, Appending to the list
