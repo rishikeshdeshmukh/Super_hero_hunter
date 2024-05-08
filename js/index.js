@@ -5,6 +5,7 @@
 
 document.getElementById("search-form").addEventListener('keyup' , function(){
     var url = getUrl();
+    //url
     var xhrRequest = new XMLHttpRequest();
     xhrRequest.open('get',url,true);
     xhrRequest.send();    
